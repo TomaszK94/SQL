@@ -6,7 +6,7 @@ Answer: What are the top skills based on salary?
     helps identify the most financially rewarding skills to acquire or improve
 */
 
--- Dla dodania trochę więcej wiarygodności --> dana umiejętność musi się pojawić przynajmniej w 50 ofertach pracy
+-- Dla dodania trochę więcej wiarygodności --> dana umiejętność musi się pojawić przynajmniej w 25 ofertach pracy
 SELECT 
     skills,
     ROUND(AVG(salary_year_avg),0) AS avg_salary,

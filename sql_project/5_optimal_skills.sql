@@ -58,7 +58,7 @@ LIMIT 25;
 */
 
 -- Wersja optymalna
--- uwzględniono umiejętności, które wystąpiły w więcej niż 10 ofertach pracy 
+-- uwzględniono umiejętności, które wystąpiły w więcej niż 20 ofertach pracy 
 SELECT
     skills_dim.skill_id,
     skills_dim.skills,

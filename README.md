@@ -11,6 +11,12 @@
 
 # Tools Used
 
+- **SQL:** Querying, managing, and manipulating data in relational database systems.
+- **PostgreSQL:** Managing, storing, and querying structured data efficiently in relational databases.
+- **Visual Studio Code:** Code editor for writing, editing various programming languages and scripts.
+- **Git & GitHub:** Version control and collaborative development, allowing users to track changes and share code efficiently.
+- **Python (Pandas, Matplotlib, Seaborn):** Visualization.
+
 # The Analysis
 
 ### 1. Top Paying Data Analyst Jobs

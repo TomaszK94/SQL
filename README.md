@@ -48,6 +48,48 @@ ORDER BY
 LIMIT 10;
 ```
 
+``` Python
+fig, ax = plt.subplots(2, 1, figsize=(10, 10), facecolor="black")
+sns.despine()
+
+palette= sns.color_palette("YlOrRd", n_colors=10)
+sns.barplot(data=df_1, x="salary_year_avg", y="job_title", ax=ax[0], hue="salary_year_avg", palette=palette, legend=False)
+
+ax[0].grid(axis="x", color="gray", linestyle="--", linewidth=0.5, alpha=0.7, zorder=0)
+ax[0].set_title(" ", pad=20)
+ax[0].set_ylabel("")
+ax[0].set_xlabel("")
+ax[0].xaxis.set_major_formatter(plt.FuncFormatter(lambda x, _: f"${int(x/1000)}K"))
+
+ax[0].set_facecolor("black")
+ax[0].tick_params(axis='x', colors='white', labelsize=10)  
+ax[0].tick_params(axis='y', colors='white', labelsize=10)  
+
+fig.text(0.5, 0.97, "Top 10 highest-paying Data Analyst roles that are available remotely", color='white', fontweight='bold', ha='center', fontsize=14)
+
+
+palette1= sns.color_palette("YlGnBu", n_colors=10)
+sns.barplot(data=df_2, x="salary_year_avg", y="company_name", ax=ax[1], hue="salary_year_avg", palette=palette1, legend=False)
+
+ax[1].grid(axis="x", color="gray", linestyle="--", linewidth=0.5, alpha=0.7, zorder=0)
+ax[1].set_title(" ", pad=20)
+ax[1].set_ylabel("")
+ax[1].set_xlabel("Yearly Salary (USD)", color="white", fontsize=12, labelpad=15)
+ax[1].set_xlim(ax[0].get_xlim())
+ax[1].xaxis.set_major_formatter(plt.FuncFormatter(lambda x, _: f"${int(x/1000)}K"))
+
+ax[1].set_facecolor("black")
+ax[1].tick_params(axis='x', colors='white', labelsize=10)  
+ax[1].tick_params(axis='y', colors='white', labelsize=10)  
+
+fig.text(0.5, 0.495, "Top 10 Highest Paid Company for Data Analysts (remotely)", color='white', fontweight='bold', ha='center', fontsize=14)
+
+
+fig.tight_layout()
+plt.show()
+```
+Full code to Visualization available here: 
+[Top Paying Data Analyst Jobs Visualization](/Graphs/1_top_paying_jobs.ipynb)
 
 ### 2. Skills for Top Paying Jobs
 

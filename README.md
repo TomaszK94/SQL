@@ -88,6 +88,9 @@ fig.text(0.5, 0.495, "Top 10 Highest Paid Company for Data Analysts (remotely)",
 fig.tight_layout()
 plt.show()
 ```
+![Top Paying Jobs](Visualization/1_top_paying_jobs.png)
+*Bar graph visualizing the salary for the top 10 salaries for data analysts (remotely)*
+
 Full code to Visualization available here: 
 [Top Paying Data Analyst Jobs Visualization](/Graphs/1_top_paying_jobs.ipynb)
 

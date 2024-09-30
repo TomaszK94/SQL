@@ -51,11 +51,12 @@ LIMIT 10;
 ``` Python
 fig, ax = plt.subplots(2, 1, figsize=(10, 10), facecolor="black")
 sns.despine()
+sns.set_theme(style="ticks")
 
 palette= sns.color_palette("YlOrRd", n_colors=10)
 sns.barplot(data=df_1, x="salary_year_avg", y="job_title", ax=ax[0], hue="salary_year_avg", palette=palette, legend=False)
 
-ax[0].grid(axis="x", color="gray", linestyle="--", linewidth=0.5, alpha=0.7, zorder=0)
+ax[0].grid(axis="x", color="gray", linestyle="--", linewidth=0.5, alpha=0.5, zorder=0)
 ax[0].set_title(" ", pad=20)
 ax[0].set_ylabel("")
 ax[0].set_xlabel("")
@@ -71,7 +72,7 @@ fig.text(0.5, 0.97, "Top 10 highest-paying Data Analyst roles that are available
 palette1= sns.color_palette("YlGnBu", n_colors=10)
 sns.barplot(data=df_2, x="salary_year_avg", y="company_name", ax=ax[1], hue="salary_year_avg", palette=palette1, legend=False)
 
-ax[1].grid(axis="x", color="gray", linestyle="--", linewidth=0.5, alpha=0.7, zorder=0)
+ax[1].grid(axis="x", color="gray", linestyle="--", linewidth=0.5, alpha=0.5, zorder=0)
 ax[1].set_title(" ", pad=20)
 ax[1].set_ylabel("")
 ax[1].set_xlabel("Yearly Salary (USD)", color="white", fontsize=12, labelpad=15)

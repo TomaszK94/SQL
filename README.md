@@ -47,6 +47,8 @@ ORDER BY
     salary_year_avg DESC
 LIMIT 10;
 ```
+
+
 ### 2. Skills for Top Paying Jobs
 
 ### 3. In-Demand Skills for Data Analysts

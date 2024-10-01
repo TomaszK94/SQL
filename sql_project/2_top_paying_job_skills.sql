@@ -61,7 +61,8 @@ LIMIT 10
 SELECT 
     skills_dim.skill_id,
     skills_dim.skills,
-    COUNT(skills_dim.skill_id) AS skill_count
+    COUNT(skills_dim.skill_id) AS skill_count,
+    PERCENTILE_CONT(0.5) WITHIN GROUP (ORDER BY salary_year_avg) AS Median_salary
 FROM 
     top_paying_jobs
 INNER JOIN skills_job_dim ON top_paying_jobs.job_id = skills_job_dim.job_id
@@ -69,7 +70,8 @@ INNER JOIN skills_dim ON skills_job_dim.skill_id = skills_dim.skill_id
 GROUP BY 
     skills_dim.skill_id
 ORDER BY
-    skill_count DESC
+    skill_count DESC,
+    Median_salary DESC
 LIMIT 10;
 
 

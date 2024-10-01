@@ -103,6 +103,69 @@ Full code to Visualization available here:
 
 ### 2. Skills for Top Paying Jobs
 
+To identify the skills needed for top-paying jobs, job postings were combined with skills data, offering insights into what employers prioritize for high-compensation positions.
+
+``` SQL
+WITH top_paying_jobs AS (
+
+SELECT
+    job_id,
+    job_title,
+    salary_year_avg,
+    name AS company_name
+FROM
+    job_postings_fact
+LEFT JOIN company_dim ON job_postings_fact.company_id = company_dim.company_id
+WHERE
+    job_title_short = 'Data Analyst' AND
+    job_location = 'Anywhere' AND
+    salary_year_avg IS NOT NULL
+ORDER BY 
+    salary_year_avg DESC
+LIMIT 10
+)
+
+SELECT 
+    skills_dim.skill_id,
+    skills_dim.skills,
+    COUNT(skills_dim.skill_id) AS skill_count,
+    PERCENTILE_CONT(0.5) WITHIN GROUP (ORDER BY salary_year_avg) AS median_salary
+FROM 
+    top_paying_jobs
+INNER JOIN skills_job_dim ON top_paying_jobs.job_id = skills_job_dim.job_id
+INNER JOIN skills_dim ON skills_job_dim.skill_id = skills_dim.skill_id
+GROUP BY 
+    skills_dim.skill_id
+ORDER BY
+    skill_count DESC,
+    median_salary DESC
+LIMIT 10;
+```
+
+``` Python
+plt.figure(figsize=(8, 6), facecolor="black")
+
+palette= sns.color_palette("YlOrRd", n_colors=6)
+
+sns.set_theme(style="ticks")
+sns.barplot(data=job_skills, x="skill_count", y="skills", hue="skill_count", palette=palette, legend=False)
+sns.despine()
+
+ax = plt.gca()  
+ax.set_facecolor("black")  
+
+plt.grid(axis="x", color="gray", linestyle="--", linewidth=0.5, alpha=0.7, zorder=0)
+plt.title("Skill Count for Top 10 Paying Data Analyst Jobs", color='white', fontsize=15, fontweight='bold', pad=20)  
+plt.ylabel("")  
+plt.xlabel("")  
+
+ax.tick_params(axis='x', colors='white', labelsize=12)  
+ax.tick_params(axis='y', colors='white', labelsize=12)  
+ax.xaxis.set_tick_params(pad=8)
+
+plt.show()
+```
+
 ### 3. In-Demand Skills for Data Analysts
 
 ### 4. Skills Based on Salary

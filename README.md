@@ -178,6 +178,7 @@ plt.show()
 In summary, the chart reflects that technical proficiency in programming (SQL, Python), data visualization (Tableau, Power BI), and cloud platforms (AWS, Azure, Snowflake) is critical for landing top-paying data analyst jobs.
 
 ![Top Paying Skills](Visualization/2_top_paying_job_skills.png)
+
 *Bar graph visualizing the count of skills for the top 10 paying jobs for data analysts*
 
 Full code to Visualization available here: [Top Paying Job Skills Visualization](Graphs/2_top_paying_job_skills.ipynb)

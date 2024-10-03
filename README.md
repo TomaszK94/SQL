@@ -186,6 +186,9 @@ Full code to Visualization available here: [Top Paying Job Skills Visualization]
 ### 3. In-Demand Skills for Data Analysts
 
 ![Top Indemand Skills](Visualization/3_top_indemand_skills.png)
+*Bar graph visualizing top 5 in-demand skills for Data Analyst*
+
+Full code to Visualization available here: [Top Indemand Skills](Graphs/3_top_indemand_skills.ipynb)
 
 ### 4. Skills Based on Salary
 

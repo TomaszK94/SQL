@@ -202,6 +202,33 @@ ORDER BY
 LIMIT 5;
 ```
 
+``` Python
+plt.figure(figsize=(10, 4), facecolor="black")
+
+palette= sns.color_palette("YlOrRd", n_colors=5)
+
+sns.set_theme(style="ticks")
+sns.barplot(data=df, x="demand_count", y="skills", hue="demand_count", palette=palette, legend=False)
+sns.despine()
+
+ax = plt.gca()  
+ax.set_facecolor("black") 
+
+plt.grid(axis="x", color="gray", linestyle="--", linewidth=0.5, alpha=0.7, zorder=0)
+plt.title("Top 5 in-demand skills for a data analyst", color='white', fontsize=15, fontweight='bold', pad=20)  
+plt.ylabel("")  
+plt.xlabel("")  
+
+ax.tick_params(axis='x', colors='white', labelsize=12)  
+ax.tick_params(axis='y', colors='white', labelsize=12)  
+ax.xaxis.set_tick_params(pad=8)
+
+max_value = df["demand_count"].max()
+ax.set_xticks(range(0, max_value + 5000, 8500))
+
+plt.show()
+```
+
 ![Top Indemand Skills](Visualization/3_top_indemand_skills.png)
 *Bar graph visualizing top 5 in-demand skills for Data Analyst*
 

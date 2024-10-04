@@ -236,6 +236,27 @@ Full code to Visualization available here: [Top Indemand Skills](Graphs/3_top_in
 
 ### 4. Skills Based on Salary
 
+``` SQL
+SELECT 
+    skills,
+    ROUND(AVG(salary_year_avg),0) AS avg_salary,
+    COUNT(skills) AS total_job_offerts
+FROM 
+    job_postings_fact
+INNER JOIN skills_job_dim ON job_postings_fact.job_id = skills_job_dim.job_id
+INNER JOIN skills_dim ON skills_job_dim.skill_id = skills_dim.skill_id
+WHERE 
+    job_title_short = 'Data Analyst' AND
+    salary_year_avg IS NOT NULL
+GROUP BY
+    skills
+HAVING 
+    COUNT(skills) > 25
+ORDER BY 
+    avg_salary DESC
+LIMIT 25;
+```
+
 ![Top Skills Based on Salary](Visualization/4_top_skills_based_on_salary.png)
 *Bar graph visualizing top 10 skills based on avarage salary*
 

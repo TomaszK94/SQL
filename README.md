@@ -240,6 +240,8 @@ Full code to Visualization available here: [Top Indemand Skills](Graphs/3_top_in
 
 ### 5. Most Optimal Skills to Learn
 
+![Optimal Skills](Visualization/5_optimal_skills.png)
+
 # Conclusions
 
 ### Insights 

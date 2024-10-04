@@ -239,6 +239,8 @@ Full code to Visualization available here: [Top Indemand Skills](Graphs/3_top_in
 ![Top Skills Based on Salary](Visualization/4_top_skills_based_on_salary.png)
 *Bar graph visualizing top 10 skills based on avarage salary*
 
+Full code to Visualization available here: [Top Skills based on Salary](Graphs/4_top_skills_based_on_salary.ipynb)
+
 ### 5. Most Optimal Skills to Learn
 
 ![Optimal Skills](Visualization/5_optimal_skills.png)

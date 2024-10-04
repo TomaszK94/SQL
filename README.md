@@ -246,6 +246,8 @@ Full code to Visualization available here: [Top Skills based on Salary](Graphs/4
 ![Optimal Skills](Visualization/5_optimal_skills.png)
 *Scatter plot visulizing number of occurrences of skills and the average yearly salary (Top 20 skills based on yearly salary)*
 
+Full code to Visualization available here: [Optimal Skills](Graphs/5_optimal_skills.ipynb)
+
 # Conclusions
 
 ### Insights 

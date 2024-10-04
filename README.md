@@ -242,6 +242,7 @@ Full code to Visualization available here: [Top Indemand Skills](Graphs/3_top_in
 ### 5. Most Optimal Skills to Learn
 
 ![Optimal Skills](Visualization/5_optimal_skills.png)
+*Scatter plot visulizing number of occurrences of skills and the average yearly salary (Top 20 skills based on yearly salary)*
 
 # Conclusions
 

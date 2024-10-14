@@ -275,6 +275,21 @@ ORDER BY
 LIMIT 25;
 ```
 
+| Skills        | Average Salary ($) |
+|---------------|-------------------:|
+| kafka	        | 129,999	         |
+| airflow	    | 116,387	         |
+| scala	        | 115,480	         |
+| linux	        | 114,883	         |
+| confluence	| 114,153	         |
+| pyspark	    | 114,058	         |
+| mongodb	    | 113,608	         |
+| gcp	        | 113,065	         |
+| spark	        | 113,002	         |
+| databricks	| 112,881	         |
+
+*Table of the average salary for the top 10 paying skills for data analysts*
+
 ![Top Skills Based on Salary](Visualization/4_top_skills_based_on_salary.png)
 *Bar graph visualizing top 10 skills based on avarage salary*
 

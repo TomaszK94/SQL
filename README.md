@@ -319,17 +319,17 @@ plt.show()
 ```
 
 **Here's a breakdown of the results for top paying skills for Data Analysts:**
-- **Kafka** stands out at the top, with an average salary exceeding $125K, making it the most lucrative skill on the list. Its high ranking reflects its importance in large-scale, real-time data streaming and distributed systems.
-- **Airflow** and **Scala** follow closely, each offering salaries around $120K. Airflow, a popular workflow automation tool, is essential for managing complex data pipelines, while Scala is highly valued for its role in big data processing and functional programming.
+- **Kafka** stands out at the top, with an average salary exceeding $130K, making it the most lucrative skill on the list. Its high ranking reflects its importance in large-scale, real-time data streaming and distributed systems.
+- **Airflow** and **Scala** follow closely, each offering salaries around $116K. Airflow, a popular workflow automation tool, is essential for managing complex data pipelines, while Scala is highly valued for its role in big data processing and functional programming.
 - **Linux**, a foundational operating system for many data systems and servers, also ranks high with a salary nearing $115K, underscoring the demand for professionals with strong system administration and open-source expertise.
-- **Confluence** brings in over $110K, likely due to its role in enterprise collaboration and documentation, which is critical for team coordination in data and software environments.
-- **PySpark**, a Python API for Apache Spark, offers similar salary levels (around $110K). Its popularity stems from the increasing need for big data processing and machine learning capabilities in the industry.
-- **MongoDB**, a leading NoSQL database, commands salaries just over $105K. As organizations continue to scale their data storage needs, expertise in this flexible, document-based database is highly valued.
-- **GCP (Google Cloud Platform)** follows, also in the $105K range, reflecting the high demand for cloud computing skills in modern data infrastructures.
-- **Spark**, one of the most widely used big data processing engines, ranks similarly to GCP, with a salary around $105K. Its ability to handle large-scale data analytics across distributed systems keeps it in demand.
-- **Databricks**, a unified data analytics platform built on Apache Spark, rounds out the top 10 with salaries approaching $100K. Its combination of cloud and big data capabilities makes it a valuable skill for data engineering and AI development.
+- **Confluence** brings in over $114K, likely due to its role in enterprise collaboration and documentation, which is critical for team coordination in data and software environments.
+- **PySpark**, a Python API for Apache Spark, offers similar salary levels (around $114K). Its popularity stems from the increasing need for big data processing and machine learning capabilities in the industry.
+- **MongoDB**, a leading NoSQL database, commands salaries just over $113K. As organizations continue to scale their data storage needs, expertise in this flexible, document-based database is highly valued.
+- **GCP (Google Cloud Platform)** follows, also in the $113K range, reflecting the high demand for cloud computing skills in modern data infrastructures.
+- **Spark**, one of the most widely used big data processing engines, ranks similarly to GCP, with a salary around $113K. Its ability to handle large-scale data analytics across distributed systems keeps it in demand.
+- **Databricks**, a unified data analytics platform built on Apache Spark, rounds out the top 10 with salaries approaching $112K. Its combination of cloud and big data capabilities makes it a valuable skill for data engineering and AI development.
 
-Overall, the chart emphasizes that advanced technical skills related to **cloud platforms**, **big data technologies**, and **workflow management** command top-tier salaries in the market, often exceeding $100K annually. **Kafka's** leading position suggests a strong focus on real-time data streaming, while the prominence of tools like **Airflow, PySpark, and Databricks** shows the growing importance of data engineering and orchestration in today’s job market.
+Overall, the chart emphasizes that advanced technical skills related to **cloud platforms**, **big data technologies**, and **workflow management** command top-tier salaries in the market, often exceeding $110K annually. **Kafka's** leading position suggests a strong focus on real-time data streaming, while the prominence of tools like **Airflow, PySpark, and Databricks** shows the growing importance of data engineering and orchestration in today’s job market.
 
 ![Top Skills Based on Salary](Visualization/4_top_skills_based_on_salary.png)
 *Bar graph visualizing top 10 skills based on avarage salary*

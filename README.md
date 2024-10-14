@@ -241,6 +241,10 @@ ax.set_xticks(range(0, max_value + 5000, 8500))
 plt.show()
 ```
 
+**Here’s a summary of the top skills in demand for data analysts in 2023:**
+- **SQL** and **Excel** continue to be essential, highlighting the importance of strong foundational skills in data processing and spreadsheet management. 
+- Programming and visualization tools such as **Python, Tableau, and Power BI** are crucial, reflecting the growing emphasis on technical expertise for data storytelling and supporting decision-making.
+
 ![Top Indemand Skills](Visualization/3_top_indemand_skills.png)
 *Bar graph visualizing top 5 in-demand skills for Data Analyst*
 

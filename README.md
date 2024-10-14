@@ -185,6 +185,8 @@ Full code to Visualization available here: [Top Paying Job Skills Visualization]
 
 ### 3. In-Demand Skills for Data Analysts
 
+This query identified the skills most commonly requested in job postings, highlighting areas of high demand.
+
 ``` SQL
 SELECT 
     skills,

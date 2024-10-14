@@ -290,6 +290,34 @@ LIMIT 25;
 
 *Table of the average salary for the top 10 paying skills for data analysts*
 
+``` Python
+plt.figure(figsize=(10, 6), facecolor="black")
+
+palette = sns.color_palette("YlOrRd", n_colors=10)
+
+sns.set_theme(style="ticks")
+sns.barplot(data=df_top_10, x="avg_salary", y="skills", hue="avg_salary", palette=palette, legend=False)
+sns.despine()
+
+ax = plt.gca()  
+ax.set_facecolor("black")  
+
+plt.grid(axis="x", color="gray", linestyle="--", linewidth=0.5, alpha=0.7, zorder=0)
+plt.title("Top 10 Skills Based on Salary", color='white', fontsize=15, fontweight='bold', pad=20)  
+plt.ylabel("")  
+plt.xlabel("")  
+
+ax.tick_params(axis='x', colors='white', labelsize=12)  
+ax.tick_params(axis='y', colors='white', labelsize=12)  
+ax.xaxis.set_tick_params(pad=8)
+
+max_value = df["avg_salary"].max()
+ax.set_xticks(range(0, max_value + 5000, 13000))
+ax.xaxis.set_major_formatter(plt.FuncFormatter(lambda x, _: f"${int(x/1000)}K"))
+
+plt.show()
+```
+
 ![Top Skills Based on Salary](Visualization/4_top_skills_based_on_salary.png)
 *Bar graph visualizing top 10 skills based on avarage salary*
 

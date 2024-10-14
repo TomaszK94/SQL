@@ -252,6 +252,8 @@ Full code to Visualization available here: [Top Indemand Skills](Graphs/3_top_in
 
 ### 4. Skills Based on Salary
 
+Examining the average salaries tied to various skills highlighted which ones are the most lucrative (Occurrence of skills more than 25 times).
+
 ``` SQL
 SELECT 
     skills,

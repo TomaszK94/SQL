@@ -204,6 +204,16 @@ ORDER BY
 LIMIT 5;
 ```
 
+| Skills   | Demand Count |
+|----------|--------------|
+| SQL      | 92628        |
+| Excel    | 67031        |
+| Python   | 57326        |
+| Tableau  | 46554        |
+| Power BI | 39468        |
+
+*Table of the demand for the top 5 skills in data analyst job postings*
+
 ``` Python
 plt.figure(figsize=(10, 4), facecolor="black")
 

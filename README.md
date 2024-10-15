@@ -416,6 +416,60 @@ LIMIT 20;
 | excel	          | 256	         | 87,288$                  |
 
 *Table of number of occurrences of skills and the average yearly salary (Top 20 skills based on yearly salary)*
+
+``` Python
+plt.figure(figsize=(9, 7), facecolor="black")
+sns.scatterplot(
+    data=df_top_20,
+    x="demand_count",
+    y="avg_salary",
+    s=60,
+    hue="avg_salary",
+    palette="YlOrRd",
+    legend=False
+)
+
+ax = plt.gca() 
+ax.set_facecolor("black")  
+
+sns.despine()
+sns.set_theme(style="ticks")
+
+# Prepare texts for adjustText
+texts = []
+for i, txt in enumerate(df_top_20.index):
+    x = df_top_20['demand_count'].iloc[i]
+    y = df_top_20['avg_salary'].iloc[i]
+    texts.append(plt.text(x + 5, y - 5, txt, fontsize=11, color='white'))
+
+# Adjust text to avoid overlap
+from adjustText import adjust_text
+adjust_text(texts, arrowprops=dict(arrowstyle="->", color="gray"))
+
+# Set axis labels, title and legend
+plt.xlabel('Number of occurrences', color='white', fontsize=15, fontweight='bold', labelpad=15)
+plt.ylabel('Yearly Salary', color='white', fontsize=15, fontweight='bold', labelpad=15)
+plt.title("The highest-paid skills in relation to the number of occurrences", color='white', fontsize=18, fontweight='bold', pad=30)
+
+# Ustawienie koloru osi X i Y na biały
+ax.spines['bottom'].set_color('white')  # Oś X
+ax.spines['left'].set_color('white')    # Oś Y
+
+# Ustawienie koloru tekstu przy osi
+ax.tick_params(axis='x', colors='white', pad=5)  # Etykiety osi X
+ax.tick_params(axis='y', colors='white', pad=5)  # Etykiety osi Y
+
+# Formating x, y axis
+ax.yaxis.set_major_formatter(plt.FuncFormatter(lambda y, pos: f"${int(y/1000)}K"))
+ax.set_xticks(range(0, 410, 20))
+ax.set_yticks(range(85000, 125000, 5000))
+ax.margins(y=0.2)
+
+# Adjust layout and display 
+plt.tight_layout()
+plt.show()
+```
+
 ![Optimal Skills](Visualization/5_optimal_skills.png)
 *Scatter plot visulizing number of occurrences of skills and the average yearly salary (Top 20 skills based on yearly salary)*
 

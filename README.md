@@ -470,6 +470,14 @@ plt.tight_layout()
 plt.show()
 ```
 
+- High Salary, Low Occurrence: Skills like **Go, Hadoop, Snowflake, Azure, and AWS** appear on the higher end of the salary scale (around $115K-$120K) but have relatively low occurrences (fewer than 100).
+
+- Moderate Salary, High Occurrence: Skills such as **SQL, Python, and Excel** are more frequently listed (200-400 occurrences), but offer relatively lower salaries, with **SQL** showing the highest number of occurrences but a salary around $100K.
+
+- Balanced Position: Skills like **Power BI, R, and Tableau** balance between a decent number of occurrences (100-200) and a competitive salary ($100K-$105K).
+
+In summary, niche skills like **Go** and **Hadoop** command the highest salaries, while more common skills like **SQL**, **Python**, and **Excel** appear frequently but with slightly lower pay.
+
 ![Optimal Skills](Visualization/5_optimal_skills.png)
 *Scatter plot visulizing number of occurrences of skills and the average yearly salary (Top 20 skills based on yearly salary)*
 

@@ -169,6 +169,7 @@ LIMIT 10;
 | aws      | 2            |
 | power bi | 2            |
 
+*Table of the count of skills for the top 10 paying jobs for data analysts*
 ``` Python
 plt.figure(figsize=(8, 6), facecolor="black")
 

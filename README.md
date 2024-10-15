@@ -415,7 +415,7 @@ LIMIT 20;
 | powerpoint	  | 58	         | 88,701$                  |
 | excel	          | 256	         | 87,288$                  |
 
-*Table of number of occurrences of skills and the average yearly salary (Top 20 skills based on yearly salary)
+*Table of number of occurrences of skills and the average yearly salary (Top 20 skills based on yearly salary)*
 ![Optimal Skills](Visualization/5_optimal_skills.png)
 *Scatter plot visulizing number of occurrences of skills and the average yearly salary (Top 20 skills based on yearly salary)*
 

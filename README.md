@@ -366,6 +366,9 @@ Full code to Visualization available here: [Top Skills based on Salary](Graphs/4
 
 ### 5. Most Optimal Skills to Learn
 
+
+This query sought to identify skills that are both in high demand and offer high salaries by analyzing demand and salary data, providing a strategic direction for skill development.
+
 ``` SQL
 SELECT
     skills_dim.skill_id,
@@ -389,6 +392,28 @@ ORDER BY
     demand_count DESC
 LIMIT 20;
 ```
+		
+| Skill           | Count	     | Average Yearly Salary    |
+|-----------------|--------------|--------------------------|
+| go	          | 27	         | 115,320$                 |
+| hadoop	      | 22	         | 113,193$                 |
+| snowflake	      | 37	         | 112,948$                 |
+| azure	          | 34	         | 111,225$                 |                         
+| aws	          | 32	         | 108,317$                 |                            
+| oracle	      | 37	         | 104,534$                 |
+| looker	      | 49	         | 103,795$                 |
+| python	      | 236	         | 101,397$                 |
+| r	              | 148	         | 100,499$                 |
+| tableau	      | 230	         | 99,288$                  |
+| sas	          | 63	         | 98,902$                  |
+| sql server	  | 35	         | 97,786$                  |
+| power bi	      | 110	         | 97,431$                  |
+| sql	          | 398	         | 97,237$                  |
+| flow	          | 28	         | 97,200$                  |
+| spss	          | 24	         | 92,170$                  |
+| vba	          | 24	         | 88,783$                  |
+| powerpoint	  | 58	         | 88,701$                  |
+| excel	          | 256	         | 87,288$                  |
 
 ![Optimal Skills](Visualization/5_optimal_skills.png)
 *Scatter plot visulizing number of occurrences of skills and the average yearly salary (Top 20 skills based on yearly salary)*

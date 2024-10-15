@@ -142,6 +142,19 @@ ORDER BY
 LIMIT 10;
 ```
 
+| Skills   | Skill count  |
+|----------|--------------|
+| SQL      | 8            |
+| Python   | 7            |
+| Tableau  | 6            |
+| r        | 4            |
+| pandas   | 3            |
+| excel    | 3            |
+| snowflake| 3            |
+| azure    | 2            |
+| aws      | 2            |
+| power bi | 2            |
+
 ``` Python
 plt.figure(figsize=(8, 6), facecolor="black")
 

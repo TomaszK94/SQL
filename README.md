@@ -48,6 +48,20 @@ ORDER BY
 LIMIT 10;
 ```
 
+| Job Title                          | Company Name                | Yearly Salary |
+|------------------------------------|-----------------------------|---------------|
+| Data Analyst                       | Mantys                      | 650,000$      |
+| Director of Analytics              | Meta                        | 336,500$      |        
+| Associate Director - Data Insights | AT&T                        | 255,829$      |
+| Data Analyst, Marketing            | Pinterest Job Adverisements | 232,423$      |
+| Data Analyst, (Hybrid/Remote)      | Uclahealthcareers           | 217,000$      |
+| Principal Data Analyst (Remote)    | SmartAsset                  | 205,000$      |
+| Director, Data Analyst - HYBRID    | Inclusively                 | 189,309$      |
+| Principal Data Analyst, AV         | Motional                    | 189,000$      |
+| Principal Data Analyst             | SmartAsset                  | 186,000$      |  
+| ERM Data Analyst                   | Get It Recruit - IT         | 184,000$      |
+
+*Table of the salary for the top 10 data analysts jobs (remotely)*
 ``` Python
 fig, ax = plt.subplots(2, 1, figsize=(10, 10), facecolor="black")
 sns.despine()

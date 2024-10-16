@@ -15,11 +15,11 @@
 
 # Tools Used
 
-- **SQL:** Querying, managing, and manipulating data in relational database systems.
-- **PostgreSQL:** Managing, storing, and querying structured data efficiently in relational databases.
-- **Visual Studio Code:** Code editor for writing, editing various programming languages and scripts.
-- **Git & GitHub:** Version control and collaborative development, allowing users to track changes and share code efficiently.
-- **Python (Pandas, Matplotlib, Seaborn):** Visualization.
+- `SQL:` Querying, managing, and manipulating data in relational database systems.
+- `PostgreSQL:` Managing, storing, and querying structured data efficiently in relational databases.
+- `Visual Studio Code:` Code editor for writing, editing various programming languages and scripts.
+- `Git & GitHub:` Version control and collaborative development, allowing users to track changes and share code efficiently.
+- `Python (Pandas, Matplotlib, Seaborn):` Visualization.
 
 # The Analysis
 
@@ -104,10 +104,10 @@ fig.tight_layout()
 plt.show()
 ```
 
-**Here’s an overview of the leading data analyst positions in 2023:**
-- **Significant Salary Variation:** The top 10 highest-paying data analyst roles range from $184,000 to $650,000, highlighting substantial earning potential in the industry.
-- **Variety of Employers:** Organizations such as SmartAsset, Meta, and AT&T offer competitive salaries, indicating widespread demand across various sectors.
-- **Diverse Job Titles:** There is a wide range of job titles, from Data Analyst to Director of Analytics, showcasing the different roles and specializations within data analytics.
+**Here's an overview of the leading data analyst positions in 2023:**
+- `Significant Salary Variation:` The top **10 highest-paying** data analyst roles range from **$184,000** to **$650,000**, highlighting substantial earning potential in the industry.
+- `Variety of Employers:` Organizations such as **SmartAsset**, **Meta**, and **AT&T** offer competitive salaries, indicating widespread demand across various sectors.
+- `Diverse Job Titles:` There is a wide range of job titles, from **Data Analyst** to **Director of Analytics**, showcasing the different roles and specializations within data analytics.
 
 ![Top Paying Jobs](Visualization/1_top_paying_jobs.png)
 *Bar graph visualizing the salary for the top 10 salaries for data analysts (remotely)*

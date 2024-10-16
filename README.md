@@ -501,3 +501,5 @@ This project strengthened my **SQL** skills and offered important insights into 
 The analysis results provide guidance for prioritizing skill development and job search strategies. 
 By concentrating on in-demand, high-paying skills, aspiring data analysts can improve their standing in a competitive market. 
 This exploration underscores the need for continuous learning and staying adaptable to new trends in data analytics.
+
+# Database Data

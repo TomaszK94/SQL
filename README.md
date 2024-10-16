@@ -194,16 +194,16 @@ ax.xaxis.set_tick_params(pad=8)
 plt.show()
 ```
 **Here's the breakdown of the most demanded skills for the top 10 highest paying data analyst jobs in 2023:**
-- **SQL** dominates the list, being the most requested skill, with a count of 8, underscoring its foundational importance in data analysis.
-- **Python** is closely following, with a count of 7, reflecting its widespread use in data manipulation and analysis.
-- **Tableau**, a popular data visualization tool, appears 6 times, emphasizing the demand for skills in presenting data insights.
-- **R** are next, with being listed 4 times, showcasing their relevance in statistical analysis and data management.
-- **Excel** appears 3 times, indicating its continued importance for data management and analysis tasks.
-- **Pandas**, a Python library, has a count of 3, highlighting its significance in data processing tasks.
-- **Snowflake**, a cloud-based data warehousing tool, also appears 3 times, indicating the growing need for cloud-based data solutions.
-- **AWS, Azure, and Power BI** each have 2 mentions, pointing to the importance of cloud computing and business intelligence tools in high-paying data analyst roles.
+- `SQL` dominates the list, being the most requested skill, with a count of 8, underscoring its foundational importance in data analysis.
+- `Python` is closely following, with a count of 7, reflecting its widespread use in data manipulation and analysis.
+- `Tableau`, a popular data visualization tool, appears 6 times, emphasizing the demand for skills in presenting data insights.
+- `R` are next, with being listed 4 times, showcasing their relevance in statistical analysis and data management.
+- `Excel` appears 3 times, indicating its continued importance for data management and analysis tasks.
+- `Pandas`, a Python library, has a count of 3, highlighting its significance in data processing tasks.
+- `Snowflake`, a cloud-based data warehousing tool, also appears 3 times, indicating the growing need for cloud-based data solutions.
+- `AWS, Azure, and Power BI` each have 2 mentions, pointing to the importance of cloud computing and business intelligence tools in high-paying data analyst roles.
 
-In summary, the chart reflects that technical proficiency in programming (SQL, Python), data visualization (Tableau, Power BI), and cloud platforms (AWS, Azure, Snowflake) is critical for landing top-paying data analyst jobs.
+In summary, the chart reflects that technical proficiency in programming (**SQL**, **Python**), data visualization (**Tableau**, **Power BI**), and cloud platforms (**AWS**, **Azure**, **Snowflake**) is critical for landing top-paying data analyst jobs.
 
 ![Top Paying Skills](Visualization/2_top_paying_job_skills.png)
 
@@ -347,17 +347,17 @@ plt.show()
 ```
 
 **Here's a breakdown of the results for top paying skills for Data Analysts:**
-- **Kafka** stands out at the top, with an average salary exceeding $130K, making it the most lucrative skill on the list. Its high ranking reflects its importance in large-scale, real-time data streaming and distributed systems.
-- **Airflow** and **Scala** follow closely, each offering salaries around $116K. Airflow, a popular workflow automation tool, is essential for managing complex data pipelines, while Scala is highly valued for its role in big data processing and functional programming.
-- **Linux**, a foundational operating system for many data systems and servers, also ranks high with a salary nearing $115K, underscoring the demand for professionals with strong system administration and open-source expertise.
-- **Confluence** brings in over $114K, likely due to its role in enterprise collaboration and documentation, which is critical for team coordination in data and software environments.
-- **PySpark**, a Python API for Apache Spark, offers similar salary levels (around $114K). Its popularity stems from the increasing need for big data processing and machine learning capabilities in the industry.
-- **MongoDB**, a leading NoSQL database, commands salaries just over $113K. As organizations continue to scale their data storage needs, expertise in this flexible, document-based database is highly valued.
-- **GCP (Google Cloud Platform)** follows, also in the $113K range, reflecting the high demand for cloud computing skills in modern data infrastructures.
-- **Spark**, one of the most widely used big data processing engines, ranks similarly to GCP, with a salary around $113K. Its ability to handle large-scale data analytics across distributed systems keeps it in demand.
-- **Databricks**, a unified data analytics platform built on Apache Spark, rounds out the top 10 with salaries approaching $112K. Its combination of cloud and big data capabilities makes it a valuable skill for data engineering and AI development.
+- `Kafka` stands out at the top, with an average salary exceeding **$130K**, making it the most lucrative skill on the list. Its high ranking reflects its importance in large-scale, real-time data streaming and distributed systems.
+- `Airflow and Scala` follow closely, each offering salaries around **$116K**. **Airflow**, a popular workflow automation tool, is essential for managing complex data pipelines, while **Scala** is highly valued for its role in big data processing and functional programming.
+- `Linux`, a foundational operating system for many data systems and servers, also ranks high with a salary nearing **$115K**, underscoring the demand for professionals with strong system administration and open-source expertise.
+- `Confluence` brings in over **$114K**, likely due to its role in enterprise collaboration and documentation, which is critical for team coordination in data and software environments.
+- `PySpark`, a Python API for Apache Spark, offers similar salary levels (**around $114K**). Its popularity stems from the increasing need for big data processing and machine learning capabilities in the industry.
+- `MongoDB`, a leading NoSQL database, commands salaries just over **$113K**. As organizations continue to scale their data storage needs, expertise in this flexible, document-based database is highly valued.
+- `GCP (Google Cloud Platform)` follows, also in the **$113K** range, reflecting the high demand for cloud computing skills in modern data infrastructures.
+- `Spark`, one of the most widely used big data processing engines, ranks similarly to GCP, with a salary around **$113K**. Its ability to handle large-scale data analytics across distributed systems keeps it in demand.
+- `Databricks`, a unified data analytics platform built on Apache Spark, rounds out the top 10 with salaries approaching **$112K**. Its combination of cloud and big data capabilities makes it a valuable skill for data engineering and AI development.
 
-Overall, the chart emphasizes that advanced technical skills related to **cloud platforms**, **big data technologies**, and **workflow management** command top-tier salaries in the market, often exceeding $110K annually. **Kafka's** leading position suggests a strong focus on real-time data streaming, while the prominence of tools like **Airflow, PySpark, and Databricks** shows the growing importance of data engineering and orchestration in today’s job market.
+Overall, the chart emphasizes that advanced technical skills related to **cloud platforms**, **big data technologies**, and **workflow management** command top-tier salaries in the market, often exceeding **$110K annually**. **Kafka's** leading position suggests a strong focus on real-time data streaming, while the prominence of tools like **Airflow, PySpark, and Databricks** shows the growing importance of data engineering and orchestration in today’s job market.
 
 ![Top Skills Based on Salary](Visualization/4_top_skills_based_on_salary.png)
 *Bar graph visualizing top 10 skills based on avarage salary*
@@ -470,11 +470,11 @@ plt.tight_layout()
 plt.show()
 ```
 
-- High Salary, Low Occurrence: Skills like **Go, Hadoop, Snowflake, Azure, and AWS** appear on the higher end of the salary scale (around $110K-$115K) but have relatively low occurrences (fewer than 40).
+- `High Salary, Low Occurrence:` Skills like **Go, Hadoop, Snowflake, Azure, and AWS** appear on the higher end of the salary scale (**around $110K-$115K**) but have relatively low occurrences (**fewer than 40**).
 
-- Moderate Salary, High Occurrence: Skills such as **SQL, Python, and Excel** are more frequently listed (200-400 occurrences), but offer relatively lower salaries, with **SQL** showing the highest number of occurrences but a salary around $100K.
+- `Moderate Salary, High Occurrence:` Skills such as **SQL, Python, and Excel** are more frequently listed (**200-400 occurrences**), but offer relatively lower salaries, with **SQL** showing the highest number of occurrences but a salary around **$100K**.
 
-- Balanced Position: Skills like **Power BI, R, and Tableau** balance between a decent number of occurrences (100-220) and a competitive salary ($97K-$100K).
+- `Balanced Position:` Skills like **Power BI, R, and Tableau** balance between a decent number of occurrences (**100-220**) and a competitive salary (**$97K-$100K**).
 
 In summary, niche skills like **Go** and **Hadoop** command the highest salaries, while more common skills like **SQL**, **Python**, and **Excel** appear frequently but with slightly lower pay.
 
@@ -489,11 +489,11 @@ Full code to Visualization available here: [Optimal Skills](Graphs/5_optimal_ski
 
 **Here are the key takeaways from the analysis:**
 
-- **Highest-Paying Data Analyst Roles**: Remote data analyst positions offer a broad salary range, with top roles reaching as high as **$650,000**.
-- **Skills for High Salaries**: Advanced proficiency in **SQL** is a common requirement for well-paying data analyst jobs, making it essential for achieving top earnings.
-- **Most In-Demand Skill**: **SQL** remains the most sought-after skill in the data analyst job market, making it crucial for job applicants.
-- **Specialized Skills and Salaries**: Niche skills like **Go** and **Hadoop** are linked to higher-than-average salaries, showing a premium on specialized knowledge.
-- **Best Skills for Job Market Value**: **SQL** stands out as both highly demanded and well-compensated, making it a key skill for data analysts looking to maximize their market value.
+- `Highest-Paying Data Analyst Roles:` Remote data analyst positions offer a broad salary range, with top roles reaching as high as **$650,000**.
+- `Skills for High Salaries:` Advanced proficiency in **SQL** is a common requirement for well-paying data analyst jobs, making it essential for achieving top earnings.
+- `Most In-Demand Skill:` **SQL** remains the most sought-after skill in the data analyst job market, making it crucial for job applicants.
+- `Specialized Skills and Salaries:` Niche skills like **Go** and **Hadoop** are linked to higher-than-average salaries, showing a premium on specialized knowledge.
+- `Best Skills for Job Market Value:` **SQL** stands out as both highly demanded and well-compensated, making it a key skill for data analysts looking to maximize their market value.
 
 ### Closing Thoughts 
 

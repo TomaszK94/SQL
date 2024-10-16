@@ -492,7 +492,7 @@ Full code to Visualization available here: [Optimal Skills](Graphs/5_optimal_ski
 - **Highest-Paying Data Analyst Roles**: Remote data analyst positions offer a broad salary range, with top roles reaching as high as **$650,000**.
 - **Skills for High Salaries**: Advanced proficiency in **SQL** is a common requirement for well-paying data analyst jobs, making it essential for achieving top earnings.
 - **Most In-Demand Skill**: **SQL** remains the most sought-after skill in the data analyst job market, making it crucial for job applicants.
-- Specialized Skills and Salaries: Niche skills like SVN and Solidity are linked to higher-than-average salaries, showing a premium on specialized knowledge.
-- Best Skills for Job Market Value: SQL stands out as both highly demanded and well-compensated, making it a key skill for data analysts looking to maximize their market value.
+- **Specialized Skills and Salaries**: Niche skills like **Go** and **Hadoop** are linked to higher-than-average salaries, showing a premium on specialized knowledge.
+- **Best Skills for Job Market Value**: **SQL** stands out as both highly demanded and well-compensated, making it a key skill for data analysts looking to maximize their market value.
 
 ### Closing Thoughts 

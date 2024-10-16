@@ -496,3 +496,8 @@ Full code to Visualization available here: [Optimal Skills](Graphs/5_optimal_ski
 - **Best Skills for Job Market Value**: **SQL** stands out as both highly demanded and well-compensated, making it a key skill for data analysts looking to maximize their market value.
 
 ### Closing Thoughts 
+
+This project strengthened my **SQL** skills and offered important insights into the data analyst job market.
+The analysis results provide guidance for prioritizing skill development and job search strategies. 
+By concentrating on in-demand, high-paying skills, aspiring data analysts can improve their standing in a competitive market. 
+This exploration underscores the need for continuous learning and staying adaptable to new trends in data analytics.

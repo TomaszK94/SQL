@@ -503,3 +503,5 @@ By concentrating on in-demand, high-paying skills, aspiring data analysts can im
 This exploration underscores the need for continuous learning and staying adaptable to new trends in data analytics.
 
 # Database Data
+
+Special thanks to [Luke Barousse](https://www.lukebarousse.com/) for providing the data.

@@ -22,28 +22,3 @@ GROUP BY
 ORDER BY 
     demand_count DESC
 LIMIT 5;
-
-
--- Results Json
-[
-  {
-    "skills": "sql",
-    "demand_count": "92628"
-  },
-  {
-    "skills": "excel",
-    "demand_count": "67031"
-  },
-  {
-    "skills": "python",
-    "demand_count": "57326"
-  },
-  {
-    "skills": "tableau",
-    "demand_count": "46554"
-  },
-  {
-    "skills": "power bi",
-    "demand_count": "39468"
-  }
-]
